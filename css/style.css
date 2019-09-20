@@ -1,0 +1,85 @@
+body {
+    background-image: url("http://localhost/123forum/images/login_bcg.jpg");
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+}
+
+label {
+    font-size: 130%;
+    font-style: bold;
+}
+
+.login {
+    color: white;
+    margin: auto;
+    background-color: black;
+    padding: 1%;
+    border: 3px double rgb(75, 101, 148);
+    border-radius: 3px;
+    width: 25%;
+}
+
+input[type=text],
+input[type=password],
+input[type=time] {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    border: 2px solid rgb(4, 217, 255);
+    box-sizing: border-box;
+    font-size: 120%;
+}
+
+.button {
+    font-size: 110%;
+    padding: 2% 4px;
+    background-color: rgb(6, 16, 77);
+    color: aliceblue;
+    width: 50%;
+}
+
+button:hover {
+    background-color: rgb(72, 72, 182);
+    cursor: pointer;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    border: 3px double rgb(75, 101, 148);
+    border-radius: 3px;
+    background-color: black;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 0.3% 1%;
+    width: 25%;
+}
+
+.notReg {
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+    padding: 15px;
+    margin: auto;
+    width: 25%;
+}
+
+.bottomleft {
+    color: darkgrey;
+    position: absolute;
+    bottom: 3%;
+    left: 5%;
+    font-size: 22px;
+}
+
+.bottomright {
+    color: darkgrey;
+    position: absolute;
+    bottom: 3%;
+    right: 5%;
+    font-size: 22px;
+}
